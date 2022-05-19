@@ -39,7 +39,7 @@ def predict_corrosion(model, df):
 
 
 st.title('Corrosion Prediction Web App')
-st.write('This is a web app to predict corrosion rates of oil wells based on         several features that you can see in the sidebar. Please adjust the         value of each feature. After that, click on the Predict button at the bottom to         see the prediction of the model.')
+st.write('This is a web app to predict corrosion rates of oil wells head based on         several features that you can see in the sidebar. Please adjust the         value of each feature. After that, click on the Predict button at the bottom to         see the prediction of the model.')
 
 
 # In[11]:
@@ -116,6 +116,6 @@ if st.button('Predict'):
     if prediction >= 10:
         st.write("Corrosion risk: Severe")
     
-    prediction='Based on your input variables, the corrosion rate is '+str('%f' % prediction) + ' mpy'
+    prediction='Based on your input variables, the corrosion rate in the well head is '+str('%f' % prediction) + ' mpy'
     st.write(prediction)
 
