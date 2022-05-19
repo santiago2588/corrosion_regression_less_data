@@ -38,8 +38,8 @@ def predict_corrosion(model, df):
 # In[10]:
 
 
-st.title('Corrosion Prediction Web App')
-st.write('This is a web app to predict corrosion rates of oil wells head based on         several features that you can see in the sidebar. Please adjust the         value of each feature. After that, click on the Predict button at the bottom to         see the prediction of the model.')
+st.title('Corrosion Prediction with AI model')
+st.write('This is a AI model to predict corrosion rates of oil wells head based on         several features that you can see in the sidebar. Please adjust the         value of each feature. After that, click on the Predict button at the bottom to         see the prediction of the model.')
 
 
 # In[11]:
